@@ -1,0 +1,11 @@
+//- h1 Tag
+//- Defines mixin for creating an h1 tag
+mixin h1(content)
+
+    - var content   = content       || {}
+    - content.id    = content.id    || ''
+    - content.class = content.class || ''
+    - content.text  = content.text  || 'Default text'
+
+    h1(id=content.id, class=content.class)
+        !=content.text

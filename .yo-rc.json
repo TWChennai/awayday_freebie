@@ -1,0 +1,29 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "awayday_freebie",
+      "versionControl": "Git",
+      "structure": "Static Site",
+      "htmlOption": "Jade",
+      "jsOption": "Browserify",
+      "testFramework": "Mocha + Chai",
+      "cssOption": "LESS",
+      "useLesshat": true,
+      "useBootstrap": true,
+      "ieSupport": false,
+      "useGA": false,
+      "useFTP": false,
+      "jshint": true,
+      "useJsdoc": false,
+      "useKss": false,
+      "extras": [
+        "useFontAwesome",
+        "useModernizr",
+        "useBorderBox"
+      ],
+      "html5Addons": [],
+      "jsTemplate": "React"
+    },
+    "version": "0.9.6"
+  }
+}
