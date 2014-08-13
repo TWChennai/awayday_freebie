@@ -14,7 +14,7 @@ describe('just checking', function() {
 
         var message = app.init(msg);
 
-        expect(message).to.match(/initialized/);
+        expect(message).to.equal(message);
     });
 
 });

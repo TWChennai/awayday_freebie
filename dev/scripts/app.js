@@ -4,13 +4,11 @@
 
 'use strict';
 
-var someModule = require('./modules/module');
+var scan = require('./modules/scan');
 var app = {
-    init: function(msg) {
-        someModule.init('Module called from app.js');
-        console.log(msg);
-        return 'app initialized';
-    }
+  init: function(msg) {
+    scan.init();
+  }
 };
 
 module.exports = app;

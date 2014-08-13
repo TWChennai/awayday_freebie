@@ -7,8 +7,17 @@ block body
 
 block content
     .main-container
-        +h1({text:'Welcome to Yeogurt!'})
-        p. Take a look at the <a href="https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---">documentation</a> and start mixing up something awesome.
+        +h1({text:'Welcome to AwayDay China'})
         p
-            img.logo(src="images/yeogurt-swirl.png", width="75px")
-    code.version v0.9.6
+          img.logo(src="images/spinner.gif", width="128px", heighe="128px")
+        p
+          input#barcode(type="text", name="barcode")
+    code.version v0.0.1
+
+    #goodie.modal.fade.bs-example-modal-lg(role="dialog")
+      .modal-dialog.modal-lg
+        .modal-content
+          .modal-header
+            h4.modal-title="Collect your gift"
+          .modal-body
+            img#goodieImg
